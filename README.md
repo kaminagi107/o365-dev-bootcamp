@@ -6,6 +6,7 @@ Office 365 Devloper Bootcamp - Japan の Microsoft Teams ハンズオンリポ�
 - Office 365 テナント (https://developer.microsoft.com/en-us/office/dev-program)
 - Azure DevOps アカウント (https://dev.azure.com)
 - Microsoft Azure (https://azure.microsoft.com/ja-jp/free/)
+- NodeJS (https://nodejs.org/ja/)
 - Visual Studio Code
     - 拡張機能で「Azure Repos」
 - (あれば) Visual Studio 2017
