@@ -2,6 +2,14 @@
 Office 365 Devloper Bootcamp - Japan の Microsoft Teams ハンズオンリポジトリです。  
 本ハンズオンでは、Microsoft Teams Bot の作成から自動デプロイを構成するまでの一連の流れを体験していただけます。
 
+## 事前準備
+- Office 365 テナント
+- Azure DevOps アカウント (https://dev.azure.com)
+- Microsoft Azure (https://azure.microsoft.com/ja-jp/free/)
+- Visual Studio Code
+    - 拡張機能で「Azure Repos」
+- (あれば) Visual Studio 2017
+
 ## 1. ハンズオン
 `docs` 内のドキュメントに沿って、ハンズオンを進めてください。
 
