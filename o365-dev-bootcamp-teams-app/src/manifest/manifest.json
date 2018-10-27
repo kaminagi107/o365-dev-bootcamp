@@ -1,0 +1,60 @@
+{
+  "$schema": "https://statics.teams.microsoft.com/sdk/v1.2/manifest/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.2",
+  "id": "d2fbc83f-b3f9-efe9-ed9a-283f7c9e7307",
+  "version": "0.0.1",
+  "packageName": "net.azurewebsites.o365DevBootcampTeamsApp",
+  "developer": {
+    "name": "Bootcamp-Teams-Handson",
+    "websiteUrl": "https://o365DevBootcampTeamsApp.azurewebsites.net",
+    "privacyUrl": "https://o365DevBootcampTeamsApp.azurewebsites.net/privacy.html",
+    "termsOfUseUrl": "https://o365DevBootcampTeamsApp.azurewebsites.net/tou.html"
+  },
+  "name": {
+    "short": "o365 dev bootcamp",
+    "full": "o365 dev bootcamp"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [],
+  "staticTabs": [],
+  "bots": [
+    {
+      "botId": "00000000-0000-0000-0000-000000000000",
+      "needsChannelSelector": true,
+      "isNotificationOnly": false,
+      "scopes": [
+        "team",
+        "personal"
+      ],
+      "commandLists": [
+        {
+          "scopes": [
+            "team",
+            "personal"
+          ],
+          "commands": [
+            {
+              "title": "Help",
+              "description": "Shows help information"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": []
+}
